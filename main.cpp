@@ -1,6 +1,8 @@
 #include <iostream>
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    std::cout << "This is calculator. Enter expression" << std::endl;
+    std::string expr;
+    std::cin >> expr;
     return 0;
 }
